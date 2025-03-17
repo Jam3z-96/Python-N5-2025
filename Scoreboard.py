@@ -22,4 +22,4 @@ while period < 4:
 print("Game Over!")
 print("Final HT:",home,)
 print("Final AT:",away,)
-print("Final Period:",period,)
+print("Final Period:",period - 1,)
