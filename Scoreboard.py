@@ -20,6 +20,6 @@ while period < 4:
         period += 1
 
 print("Game Over!")
-print("Final HT:",home,)
-print("Final AT:",away,)
-print("Final Period:",period - 1,)
+print(f"Final HT:"{home})
+print(f"Final AT:"{away})
+print(f"Final Period:"{period - 1})
