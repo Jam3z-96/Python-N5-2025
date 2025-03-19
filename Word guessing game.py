@@ -6,7 +6,7 @@ turns = 5
 guessed_correctly = False
 
 print("Welcome to the Word Guessing Game!")
-print(f"You have {turns} turns to guess the secret word. The possibly words are: {words}")
+print(f"You have {turns} turns to guess the secret word. The possibly words are: python, function, random, length, computer, program, variable.")
 
 for turn in range(1, turns + 1):
     guess = input(f"Turn {turn}: Enter your guess: ")
@@ -19,7 +19,7 @@ for turn in range(1, turns + 1):
 if guessed_correctly:
     score = round(len(secret_word) / turn, 1)
     print(f"Congratulations! You guessed the word '{secret_word}' correctly.")
-    print(f"Your score is: {score}")
+    print(f"Your score is: {score} points.")
 else:
     print(f"Sorry, you've run out of turns. The secret word was '{secret_word}'.")
     print("Your score is: 0")
