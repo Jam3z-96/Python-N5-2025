@@ -6,10 +6,10 @@ turns = 5
 guessed_correctly = False
 
 print("Welcome to the Word Guessing Game!")
-print(f"You have {turns} turns to guess the secret word.")
+print(f"You have {turns} turns to guess the secret word. The possibly words are: {words}")
 
 for turn in range(1, turns + 1):
-    guess = input(f"Turn {turn}: Enter your guess: ").lower()
+    guess = input(f"Turn {turn}: Enter your guess: ")
     if guess == secret_word:
         guessed_correctly = True
         break
