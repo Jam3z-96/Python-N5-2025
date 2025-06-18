@@ -5,7 +5,7 @@ end_reading = float(input("Enter the meter reading at the end of the month: "))
 units_used = end_reading - start_reading
 cost_of_units = units_used * unit_cost
 total_bill = cost_of_units + standing_charge
-print(f"Units used: {units_used}")
-print(f"Cost of units: £{cost_of_units:.2f}")
-print(f"Standing charge: £{standing_charge:.2f}")
-print(f"Total bill: £{total_bill:.2f}")
+print("Units used: £" ,units_used)
+print("Cost of units: £" ,cost_of_units)
+print("Standing charge: £" ,standing_charge)
+print("Total bill: £" ,total_bill)
